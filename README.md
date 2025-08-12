@@ -13,16 +13,12 @@ This project focuses on analyzing e-commerce sales data stored in a MySQL databa
  Prepare data for dashboarding and advanced analytics
 
 # Database Schema
-The project uses a simple relational schema:
-
-Database: sales_trend
-Table: online_sales
-
-Column Name	Data Type	Description
-Order_ID	INT (Primary Key)	Unique identifier for each order
-Order_Date	DATE	Date when the order was placed
-Amount	DECIMAL(10, 2)	Order value in dollars
-Product_ID	VARCHAR(10)	ID of the purchased product
+| Column Name | Data Type         | Description                      |
+| ----------- | ----------------- | -------------------------------- |
+| Order\_ID   | INT (Primary Key) | Unique identifier for each order |
+| Order\_Date | DATE              | Date when the order was placed   |
+| Amount      | DECIMAL(10, 2)    | Order value in dollars           |
+| Product\_ID | VARCHAR(10)       | ID of the purchased product      |
 
 # Analysis Performed
 The project includes multiple levels of analysis:
